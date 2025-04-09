@@ -93,9 +93,7 @@ export default class App extends React.Component<Props> {
     return (
       <TouchableOpacity
         style={styles.back}
-        onPress={() => this.setState({Component: null})}>
-        <Text style={styles.backButton}>&larr;</Text>
-      </TouchableOpacity>
+        onPress={() => this.setState({Component: null})}></TouchableOpacity>
     );
   }
 
